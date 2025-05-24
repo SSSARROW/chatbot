@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi there",
+        "Good morning",
+        "Good evening",
+        "Hey",
+        "Is anyone here?",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Greetings! How may I be of service?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you next time!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "I appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is programming?",
+        "Define coding",
+        "Tell me about software development",
+        "Explain computer programming"
+      ],
+      "responses": [
+        "Programming is the process of writing instructions for computers to perform tasks.",
+        "Coding involves creating software, websites, and apps by writing logical instructions in a programming language."
+      ]
+    },
+    {
+      "tag": "learning_resources",
+      "patterns": [
+        "How can I learn programming?",
+        "Best way to start coding?",
+        "Where should I begin with software development?",
+        "Suggest some learning platforms"
+      ],
+      "responses": [
+        "There are many great resources online, such as interactive coding platforms, documentation, and tutorials. Consider starting with beginner-friendly courses on Python or JavaScript.",
+        "Try hands-on practice using online coding platforms, and read official documentation to strengthen your fundamentals."
+      ]
+    },
+    
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell the current time?",
+        "What's the time now?"
+      ],
+      "responses": [
+        "The current time is displayed on your device, but I can fetch it if needed."
+        
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?"
+      ],
+      "responses": [
+        "Why don't programmers like nature? It has too many bugs.",
+        "I told my computer I needed a break, and now it won’t stop sending me vacation ads."
+      ]
+    }
+  ]
+}
